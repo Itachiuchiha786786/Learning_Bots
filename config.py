@@ -12,8 +12,8 @@ API_HASH = "bf99242dbb7f3501f28d39f0a0383cbf"
 BOT_TOKEN = "6730565890:AAGGRJxb-B4OSGDxeV_EvyRFSMJ9Kr5hJIQ"
 MONGO_DB_URI = "mongodb+srv://Itachi:Itachi@itachi.rcfnknv.mongodb.net/?retryWrites=true&w=majority"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOGGER_ID = 
-OWNER_ID = 
+LOGGER_ID = -1002104939708
+OWNER_ID = 6402009857
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
