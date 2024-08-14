@@ -7,10 +7,10 @@ from pyrogram import filters
 load_dotenv()
 
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = 24658337
+API_HASH = "bf99242dbb7f3501f28d39f0a0383cbf"
+BOT_TOKEN = "6730565890:AAGGRJxb-B4OSGDxeV_EvyRFSMJ9Kr5hJIQ"
+MONGO_DB_URI = "mongodb+srv://Itachi:Itachi@itachi.rcfnknv.mongodb.net/?retryWrites=true&w=majority"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = 
 OWNER_ID = 
@@ -30,8 +30,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dynamic_gang")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/dynamic_gang")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -54,7 +54,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
 STRING1 = ""
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("STRING_SESSION2", "BQGrwlgAnr3ctLyzcle8VyJTggY1_gCyrg8nDdqQ0JPUNvAIrZ1wCoQ-eK2vYxjoeGBJcxQxRpm5w5LpTu8rTWn5jLsOL1SPdB_bVRS4Im9CaVuHnG1rN472FLYWwFjmDV5TEopUbWy4B_iJFfEwYMlPl5lkat7EwTt2uKmEeXeLVX_mHOu9XXArhRuEsVXZZJV9tD1Ymt2pV4bKHIFm6fFfJU4nKoJnuV-DsP1lnqy8JHOVDg8LGDy31s-ctbq57frO1KD3l6ZVKLbuDA1wALCxyPLm7WDwqQz9ZGATuxuMRl2pgMsr1znhv4DRQoN8LIxA00srIuFNqNj-CP9wRULfF5L83gAAAAF4-oylAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
